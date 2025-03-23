@@ -1,0 +1,27 @@
+{
+  "name": "@usewaypoint/document-core",
+  "version": "0.0.6",
+  "description": "Tools to render waypoint-style documents (core package)",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "author": "carlos@usewaypoint.com",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16 || ^17 || ^18",
+    "zod": "^1 || ^2 || ^3"
+  }
+}
