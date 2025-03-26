@@ -1,6 +1,6 @@
 import { TEditorConfiguration } from '../../documents/editor/core';
 
-const ONE_TIME_PASSCODE: TEditorConfiguration = {
+let ONE_TIME_PASSCODE: TEditorConfiguration = {
   root: {
     type: 'EmailLayout',
     data: {
