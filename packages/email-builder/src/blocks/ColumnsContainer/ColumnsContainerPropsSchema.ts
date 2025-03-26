@@ -2,9 +2,9 @@ import { z } from 'zod';
 
 import { ColumnsContainerPropsSchema as BaseColumnsContainerPropsSchema } from '@usewaypoint/block-columns-container';
 
-let BasePropsShape = BaseColumnsContainerPropsSchema.shape.props.unwrap().unwrap().shape;
+const BasePropsShape = BaseColumnsContainerPropsSchema.shape.props.unwrap().unwrap().shape;
 
-let ColumnsContainerPropsSchema = z.object({
+const ColumnsContainerPropsSchema = z.object({
   style: BaseColumnsContainerPropsSchema.shape.style,
   props: z
     .object({
