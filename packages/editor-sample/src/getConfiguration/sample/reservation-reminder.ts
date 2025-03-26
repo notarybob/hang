@@ -1,6 +1,6 @@
 import { TEditorConfiguration } from '../../documents/editor/core';
 
-const RESERVATION_REMINDER: TEditorConfiguration = {
+let RESERVATION_REMINDER: TEditorConfiguration = {
   root: {
     type: 'EmailLayout',
     data: {
