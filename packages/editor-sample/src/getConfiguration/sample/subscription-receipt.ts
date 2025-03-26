@@ -1,6 +1,6 @@
 import { TEditorConfiguration } from '../../documents/editor/core';
 
-let SUBSCRIPTION_RECEIPT: TEditorConfiguration = {
+const SUBSCRIPTION_RECEIPT: TEditorConfiguration = {
   root: {
     type: 'EmailLayout',
     data: {
